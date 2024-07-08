@@ -1,6 +1,6 @@
 package Pesquisa;
 
-import com.sun.security.jgss.GSSUtil;
+import exception.ListEmptyException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,33 +25,47 @@ public class SomaNumeros {
         return soma;
     }
 
-    private int encontrarMaiorNumero(){
+    private int encontrarMaiorNumero() throws ListEmptyException {
         int maiorValor = integerList.get(0);
 
-        for (Integer i: integerList) {
-            if (i > maiorValor){
-                maiorValor = i ;
-            }
-        }
-        return maiorValor;
+       if (!integerList.isEmpty()) {
+           for (Integer i: integerList) {
+               if (i > maiorValor){
+                   maiorValor = i ;
+               }
+           }
+           return maiorValor;
+       }else {
+           throw new ListEmptyException("Lista de números vázia!");
+       }
     }
 
-    private int encontrarMenorNumero(){
+    private int encontrarMenorNumero() throws ListEmptyException {
         int menorValor = integerList.get(0);
 
-        for (Integer i: integerList) {
-            if (i < menorValor){
-                menorValor = i ;
+        if (!integerList.isEmpty()){
+            for (Integer i: integerList) {
+                if (i < menorValor){
+                    menorValor = i ;
+                }
+            }
+            return menorValor;
+        }else{
+            throw new ListEmptyException("Lista de números vázia!");
             }
         }
-        return menorValor;
+
+    private List<Integer> exibirNumeros() throws ListEmptyException {
+
+        if (!integerList.isEmpty()){
+            return integerList;
+        }else {
+            throw new ListEmptyException("Lista de números vázia!");
+        }
+
     }
 
-    private List<Integer> exibirNumeros(){
-        return integerList;
-    }
-
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ListEmptyException {
         SomaNumeros somaNumeros = new SomaNumeros();
 
         somaNumeros.adicionarNumero(2);

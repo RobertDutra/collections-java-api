@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b410cb72-559c-4664-bc88-407cdd9e21c9" name="Changes" comment="ListaTarefa">
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/Pesquisa/SomaNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/Ordenacao/OrdenacaoPessoas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/Ordenacao/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/exception/ListEmptyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/Pesquisa/CatalagoLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/Pesquisa/CatalagoLivros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/Pesquisa/SomaNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/Pesquisa/SomaNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/list/OperacoesBasicas/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/list/OperacoesBasicas/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/list/OperacoesBasicas/ListaTarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/list/OperacoesBasicas/ListaTarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +53,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\collections-java-api\src\main.java" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Ordenacao" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SomaNumeros">
+  <component name="RunManager" selected="Application.OrdenacaoPessoas">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.OperacoesBasicas.CarrinhoDeCompras" />
       <module name="collections-java-api" />
@@ -87,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrdenacaoPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ordenacao.OrdenacaoPessoas" />
+      <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ordenacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SomaNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pesquisa.SomaNumeros" />
       <module name="collections-java-api" />
@@ -102,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.SomaNumeros" />
         <item itemvalue="Application.CatalagoLivros" />
         <item itemvalue="Application.CarrinhoDeCompras" />
