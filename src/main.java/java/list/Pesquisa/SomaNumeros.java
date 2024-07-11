@@ -1,4 +1,4 @@
-package Pesquisa;
+package list.Pesquisa;
 
 import exception.ListEmptyException;
 

@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b410cb72-559c-4664-bc88-407cdd9e21c9" name="Changes" comment="ListaTarefa">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/Ordenacao/OrdenacaoPessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/Ordenacao/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/exception/ListEmptyException.java" afterDir="false" />
+    <list default="true" id="b410cb72-559c-4664-bc88-407cdd9e21c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/list/Ordenacao/OrdenacaoNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/Convidado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java/java/Pesquisa/CatalagoLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/Pesquisa/CatalagoLivros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java/java/Pesquisa/SomaNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/Pesquisa/SomaNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/Ordenacao/OrdenacaoPessoas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/list/Ordenacao/OrdenacaoPessoas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/Ordenacao/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/list/Ordenacao/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/Pesquisa/CatalagoLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/list/Pesquisa/CatalagoLivros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/Pesquisa/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/list/Pesquisa/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/Pesquisa/SomaNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/list/Pesquisa/SomaNumeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java/java/list/OperacoesBasicas/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/list/OperacoesBasicas/CarrinhoDeCompras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java/java/list/OperacoesBasicas/ListaTarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/list/OperacoesBasicas/ListaTarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <recent name="Ordenacao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrdenacaoPessoas">
+  <component name="RunManager" selected="Application.OrdenacaoNumeros">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.OperacoesBasicas.CarrinhoDeCompras" />
       <module name="collections-java-api" />
@@ -84,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.OperacoesBasicas.ListaTarefa" />
+    <configuration name="OrdenacaoNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ordenacao.OrdenacaoNumeros" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.OperacoesBasicas.*" />
+          <option name="PATTERN" value="Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrdenacaoNumeros" />
         <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.SomaNumeros" />
         <item itemvalue="Application.CatalagoLivros" />
         <item itemvalue="Application.CarrinhoDeCompras" />
-        <item itemvalue="Application.ListaTarefa" />
       </list>
     </recent_temporary>
   </component>
