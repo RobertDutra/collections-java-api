@@ -42,8 +42,10 @@ public class ConjuntoConvidados {
         conjuntoConvidados.adicionarConvidado("Robert", 23);
         conjuntoConvidados.adicionarConvidado("Lucas", 2);
         conjuntoConvidados.adicionarConvidado("Gabriela", 54);
+
         System.out.println("Total de convidados: " + conjuntoConvidados.contarConvidados());
         conjuntoConvidados.exibirConvidados();
+
         conjuntoConvidados.removerConvidadoPorCodigoConvite(54);
         System.out.println("Total de convidados: " + conjuntoConvidados.contarConvidados());
         conjuntoConvidados.exibirConvidados();

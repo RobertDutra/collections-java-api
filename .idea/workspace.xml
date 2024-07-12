@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b410cb72-559c-4664-bc88-407cdd9e21c9" name="Changes" comment="Desafio Ordenação de números">
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/Convidado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoPalavrasUnicas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoConvidados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +51,13 @@
       <recent name="Ordenacao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConjuntoConvidados">
-    <configuration name="CatalagoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pesquisa.CatalagoLivros" />
+  <component name="RunManager" selected="Application.ConjuntoPalavrasUnicas">
+    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.OperacoesBasicas.ConjuntoConvidados" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pesquisa.*" />
+          <option name="PATTERN" value="set.OperacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.OperacoesBasicas.ConjuntoConvidados" />
+    <configuration name="ConjuntoPalavrasUnicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.OperacoesBasicas.ConjuntoPalavrasUnicas" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConjuntoPalavrasUnicas" />
         <item itemvalue="Application.ConjuntoConvidados" />
         <item itemvalue="Application.OrdenacaoNumeros" />
         <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.SomaNumeros" />
-        <item itemvalue="Application.CatalagoLivros" />
       </list>
     </recent_temporary>
   </component>
