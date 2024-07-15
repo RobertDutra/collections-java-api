@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b410cb72-559c-4664-bc88-407cdd9e21c9" name="Changes" comment="Desafio Ordenação de números">
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoPalavrasUnicas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/ListaTarefas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/Tarefa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoConvidados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,20 @@
       <recent name="Ordenacao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConjuntoPalavrasUnicas">
+  <component name="RunManager" selected="Application.ListaTarefas">
+    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.Pesquisa.AgendaContatos" />
+      <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="set.Pesquisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="set.OperacoesBasicas.ConjuntoConvidados" />
       <module name="collections-java-api" />
@@ -78,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListaTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.Pesquisa.ListaTarefas" />
+      <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="set.Pesquisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrdenacaoNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ordenacao.OrdenacaoNumeros" />
       <module name="collections-java-api" />
@@ -91,39 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdenacaoPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ordenacao.OrdenacaoPessoas" />
-      <module name="collections-java-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ordenacao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomaNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pesquisa.SomaNumeros" />
-      <module name="collections-java-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Pesquisa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListaTarefas" />
+        <item itemvalue="Application.AgendaContatos" />
         <item itemvalue="Application.ConjuntoPalavrasUnicas" />
         <item itemvalue="Application.ConjuntoConvidados" />
         <item itemvalue="Application.OrdenacaoNumeros" />
-        <item itemvalue="Application.OrdenacaoPessoas" />
-        <item itemvalue="Application.SomaNumeros" />
       </list>
     </recent_temporary>
   </component>
