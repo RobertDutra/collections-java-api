@@ -22,18 +22,19 @@ public class GerenciadorAlunos {
     private void removerAluno(Long matricula){
         boolean presente = false;
         if(!alunoSet.isEmpty()){
-            alunoSet.removeIf(a -> a.getMatricula().equals(matricula));
-//            for (Aluno a : alunoSet) {
-//                if (a.getMatricula().equals(matricula)){
-//                    alunoSet.remove(a);
-//                    break;
-//
-//                }
-////                else {
-////                    System.out.println("Não á aluno presente com a matrícula: " + matricula);
-////                    break;
-////                }
-//            }
+//            alunoSet.removeIf(a -> a.getMatricula().equals(matricula));
+            for (Aluno a : alunoSet) {
+                if (a.getMatricula().equals(matricula)){
+                    alunoSet.remove(a);
+                    presente = true;
+                    break;
+
+                }
+
+            }
+            if (!presente){
+                System.out.println("Não á aluno presente com a matrícula: " + matricula);
+            }
 
         }else {
             System.out.println("Conjunto de alunos vázio!");
@@ -83,8 +84,8 @@ public class GerenciadorAlunos {
 
         gerenciadorAlunos.exibirAlunos();
 
-        System.out.println(gerenciadorAlunos.exibirAlunosPorNome());
-        System.out.println(gerenciadorAlunos.exibirAlunosPorNota());
+        System.out.println("Aluno por nome: " + gerenciadorAlunos.exibirAlunosPorNome());
+        System.out.println("Aluno por nota: " + gerenciadorAlunos.exibirAlunosPorNota());
 
     }
 }

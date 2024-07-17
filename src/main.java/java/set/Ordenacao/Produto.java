@@ -83,6 +83,10 @@ class ProdutoPoPreco implements Comparator<Produto>{
 
     @Override
     public int compare(Produto p1, Produto p2) {
-        return Double.compare(p1.getPreco(), p2.getPreco());
+        int precoComparado = Double.compare(p1.getPreco(), p2.getPreco());
+        if(precoComparado == 0){
+            return p1.getNome().compareTo(p2.getNome());
+        }
+        return precoComparado;
     }
 }

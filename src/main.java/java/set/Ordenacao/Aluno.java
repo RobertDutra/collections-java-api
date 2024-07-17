@@ -44,10 +44,9 @@ public class Aluno implements Comparable<Aluno>{
 
     @Override
     public String toString() {
-        return "Aluno { " +
-                "nome = '" + nome + '\'' +
-                ", matricula = " + matricula +
-                ", nota = " + nota +
+        return "{" + nome + '\'' +
+                ", " + matricula +
+                ", " + nota +
                 '}';
     }
 
@@ -73,6 +72,10 @@ class AlunosPorNota implements Comparator<Aluno>{
 
     @Override
     public int compare(Aluno a1, Aluno a2) {
-        return Double.compare(a1.getNota(), a2.getNota());
+        int alunoPorNota = Double.compare(a1.getNota(), a2.getNota());
+        if (alunoPorNota == 0) {
+            return a1.getNome().compareTo(a2.getNome());
+        }
+        return alunoPorNota;
     }
 }
