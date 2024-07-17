@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class AgendaContatos {
 
-    Set<Contato> contatoSet;
+    private Set<Contato> contatoSet;
 
     public AgendaContatos() {
         this.contatoSet = new HashSet<>();
@@ -29,7 +29,7 @@ public class AgendaContatos {
         Set<Contato> contatosPorNome = new HashSet<>();
         if (!contatoSet.isEmpty()) {
             for (Contato c: contatoSet) {
-                if (c.getNome().equalsIgnoreCase(nome)){
+                if (c.getNome().startsWith(nome)){
                     contatosPorNome.add(c);
                 }
             }
@@ -56,12 +56,13 @@ public class AgendaContatos {
     public static void main(String[] args) throws ListEmptyException {
         AgendaContatos agendaContatos = new AgendaContatos();
 
-//        agendaContatos.adicionarContato("Tulio", 124);
-//        agendaContatos.adicionarContato("Froid", 12224);
-//        agendaContatos.adicionarContato("Tulio", 1245);
+        agendaContatos.adicionarContato("Tulio", 124);
+        agendaContatos.adicionarContato("Froid", 12224);
+        agendaContatos.adicionarContato("Froid alencar", 12224);
+        agendaContatos.adicionarContato("Cred", 1245);
         agendaContatos.exibirContatos();
         agendaContatos.atualizarNumeroContato("Tulio", 2444);
         agendaContatos.exibirContatos();
-        System.out.println(agendaContatos.pesquisarPorNome("froid"));
+        System.out.println(agendaContatos.pesquisarPorNome("Froid"));
     }
 }

@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class ConjuntoConvidados {
 
-    Set<Convidado> convidados;
+    private Set<Convidado> convidados;
 
     public ConjuntoConvidados() {
         this.convidados = new HashSet<>();

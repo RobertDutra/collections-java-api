@@ -35,19 +35,17 @@ public class Contato {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Contato contato)) return false;
-        return getNumeroTelefone() == contato.getNumeroTelefone();
+        return Objects.equals(getNome(), contato.getNome());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getNumeroTelefone());
+        return Objects.hash(getNome());
     }
 
     @Override
     public String toString() {
-        return "Contato { " +
-                "nome = '" + nome + '\'' +
-                ", numeroTelefone = '" + numeroTelefone +
+        return "{" +nome + '\'' + numeroTelefone +
                 '}';
     }
 }

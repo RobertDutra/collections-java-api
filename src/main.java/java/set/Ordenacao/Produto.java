@@ -54,11 +54,10 @@ public class Produto implements Comparable<Produto>{
 
     @Override
     public String toString() {
-        return "Produto { " +
-                "nome = '" + nome + '\'' +
-                ", cod = " + cod +
-                ", preco = " + preco +
-                ", quantidade = " + quantidade +
+        return "{ " + nome + '\'' +
+                ", " + cod +
+                ", " + preco +
+                ", " + quantidade +
                 '}';
     }
 

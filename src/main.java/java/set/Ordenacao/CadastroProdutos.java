@@ -47,13 +47,13 @@ public class CadastroProdutos {
     public static void main(String[] args) throws ListEmptyException {
         CadastroProdutos cadastroProdutos = new CadastroProdutos();
 
-        cadastroProdutos.adicionarProduto(1L, "calça", 243.99, 4);
-        cadastroProdutos.adicionarProduto(2L, "camisa", 69.99, 4);
-        cadastroProdutos.adicionarProduto(3L, "bermuda", 49.99, 4);
-        cadastroProdutos.adicionarProduto(4L, "anel", 499.99, 2);
+        cadastroProdutos.adicionarProduto(1L, "calça", 243.99d, 4);
+        cadastroProdutos.adicionarProduto(2L, "camisa", 49.99d, 4);
+        cadastroProdutos.adicionarProduto(3L, "bermuda", 49.99d, 4);
+        cadastroProdutos.adicionarProduto(4L, "anel", 499.99d, 2);
         cadastroProdutos.exibirProdutos();
-        System.out.println(cadastroProdutos.exibirProdutosPorNome());
-        System.out.println(cadastroProdutos.exibirProdutosPorPreco());
+        System.out.println("Produtos por nome: " + cadastroProdutos.exibirProdutosPorNome());
+        System.out.println("Produtos por preço: " + cadastroProdutos.exibirProdutosPorPreco());
 
     }
 }

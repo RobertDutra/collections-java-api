@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b410cb72-559c-4664-bc88-407cdd9e21c9" name="Changes" comment="Desafio Ordenação de números">
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/CadastroProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/GerenciadorAlunos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoConvidados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoPalavrasUnicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/OperacoesBasicas/ConjuntoPalavrasUnicas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/CadastroProdutos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/CadastroProdutos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/AgendaContatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/AgendaContatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/ListaTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/ListaTarefas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/Pesquisa/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.OperacoesBasicas.ConjuntoConvidados" />
+    <configuration name="ConjuntoPalavrasUnicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.OperacoesBasicas.ConjuntoPalavrasUnicas" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConjuntoPalavrasUnicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.OperacoesBasicas.ConjuntoPalavrasUnicas" />
+    <configuration name="GerenciadorAlunos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.Ordenacao.GerenciadorAlunos" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="set.OperacoesBasicas.*" />
+          <option name="PATTERN" value="set.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +130,8 @@
         <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.ListaTarefas" />
         <item itemvalue="Application.AgendaContatos" />
+        <item itemvalue="Application.GerenciadorAlunos" />
         <item itemvalue="Application.ConjuntoPalavrasUnicas" />
-        <item itemvalue="Application.ConjuntoConvidados" />
       </list>
     </recent_temporary>
   </component>

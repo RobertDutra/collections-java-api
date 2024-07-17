@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class ListaTarefas {
 
-    Set<Tarefa> tarefaSet;
+    private Set<Tarefa> tarefaSet;
 
     public ListaTarefas() {
         this.tarefaSet = new HashSet<>();
@@ -98,9 +98,8 @@ public class ListaTarefas {
     }
 
     public void limparListaTarefas(){
-        Set<Tarefa> removeTarefa = tarefaSet;
         if (!tarefaSet.isEmpty()){
-            tarefaSet.removeAll(removeTarefa);
+            tarefaSet.clear();
         }else{
             System.out.println("Conjunto de tarefas vázio!");
         }
@@ -114,16 +113,23 @@ public class ListaTarefas {
         listaTarefas.adicionarTarefa("Correr");
         listaTarefas.adicionarTarefa("Dançar");
         listaTarefas.exibirTarefas();
+
         System.out.println("Total de tarefas: " + listaTarefas.contarTarefas());
-        System.out.println(listaTarefas.obterTarefasPendentes());
-        System.out.println(listaTarefas.obterTarefasConcluidas());
+        System.out.println("Tarefas pendentes: " + listaTarefas.obterTarefasPendentes());
+        System.out.println("Tarefas concluídas: " + listaTarefas.obterTarefasConcluidas());
+
         listaTarefas.marcarTarefaConcluida("dormir");
         listaTarefas.marcarTarefaConcluida("correr");
-        System.out.println(listaTarefas.obterTarefasConcluidas());
+
+        System.out.println("Tarefas concluídas: " + listaTarefas.obterTarefasConcluidas());
+
         listaTarefas.removerTarefa("jogar bola");
+
         listaTarefas.exibirTarefas();
-        System.out.println(listaTarefas.obterTarefasPendentes());
-//        listaTarefas.limparListaTarefas();
-//        listaTarefas.exibirTarefas();
+
+        System.out.println("Tarefas pendentes: " + listaTarefas.obterTarefasPendentes());
+
+        listaTarefas.limparListaTarefas();
+        listaTarefas.exibirTarefas();
     }
 }
