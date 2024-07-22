@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b410cb72-559c-4664-bc88-407cdd9e21c9" name="Changes" comment="Desafio Ordenação de números">
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/map/OperacoesBasicas/AgendaContatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/map/OperacoesBasicas/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/map/OperacoesBasicas/Dicionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/GerenciadorAlunos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/GerenciadorAlunos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/set/Ordenacao/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java/java/map/OperacoesBasicas/Contato.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +51,13 @@
       <recent name="Ordenacao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.map.OperacoesBasicas.AgendaContatos">
-    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.Pesquisa.AgendaContatos" />
+  <component name="RunManager" selected="Application.Dicionario">
+    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.Ordenacao.CadastroProdutos" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="set.Pesquisa.*" />
+          <option name="PATTERN" value="set.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.Ordenacao.CadastroProdutos" />
+    <configuration name="Dicionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.OperacoesBasicas.Dicionario" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="set.Ordenacao.*" />
+          <option name="PATTERN" value="map.OperacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dicionario" />
         <item itemvalue="Application.map.OperacoesBasicas.AgendaContatos" />
         <item itemvalue="Application.GerenciadorAlunos" />
         <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.ListaTarefas" />
-        <item itemvalue="Application.AgendaContatos" />
       </list>
     </recent_temporary>
   </component>
