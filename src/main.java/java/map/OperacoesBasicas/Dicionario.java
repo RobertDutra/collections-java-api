@@ -21,7 +21,7 @@ public class Dicionario {
         if (palavras.containsKey(palavra.toUpperCase())){
             palavras.remove(palavra.toUpperCase());
         }else {
-        throw new ListEmptyException("Palavra não encontrada!");
+            System.out.println("Palavra não encontrada!");
         }
     }
 
@@ -44,7 +44,7 @@ public class Dicionario {
         dicionario.adicionarPalavra("JavaScript", "Linguagem front-end");
         dicionario.adicionarPalavra("Html", "Linguagem de hyper text");
         dicionario.exibirPalavras();
-        System.out.println(dicionario.pesquisarPorPalavra("html"));
+        System.out.println(dicionario.pesquisarPorPalavra("htmls"));
         dicionario.removerPalavra("javascript");
         dicionario.exibirPalavras();
     }
