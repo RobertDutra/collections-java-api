@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b410cb72-559c-4664-bc88-407cdd9e21c9" name="Changes" comment="Desafio Ordenação de números">
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/map/Ordenacao/AgendaEventos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/map/Ordenacao/Evento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/map/Pequisa/ContagemPalavras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java/java/map/Pequisa/Produto.java" afterDir="false" />
+    <list default="true" id="b410cb72-559c-4664-bc88-407cdd9e21c9" name="Changes" comment="Desafio Agenda de Eventos">
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/map/Ordenacao/LivrariaOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java/java/map/Ordenacao/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java/java/map/OperacoesBasicas/Dicionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/map/OperacoesBasicas/Dicionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java/java/map/Pequisa/EstoqueProdutos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/java/map/Pequisa/EstoqueProdutos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +51,7 @@
       <recent name="Ordenacao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AgendaEventos">
+  <component name="RunManager" selected="Application.LivrariaOnline">
     <configuration name="AgendaEventos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="map.Ordenacao.AgendaEventos" />
       <module name="collections-java-api" />
@@ -108,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="map.OperacoesBasicas.AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.OperacoesBasicas.AgendaContatos" />
+    <configuration name="LivrariaOnline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.Ordenacao.LivrariaOnline" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.OperacoesBasicas.*" />
+          <option name="PATTERN" value="map.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LivrariaOnline" />
         <item itemvalue="Application.AgendaEventos" />
         <item itemvalue="Application.ContagemPalavras" />
         <item itemvalue="Application.EstoqueProdutos" />
         <item itemvalue="Application.Dicionario" />
-        <item itemvalue="Application.map.OperacoesBasicas.AgendaContatos" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +150,28 @@
       <option name="project" value="LOCAL" />
       <updated>1720737478308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Desafio Estoque de Produtos com Preço">
+      <created>1721688127985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721688127985</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Desafio Contagem de Palavras">
+      <created>1721688146965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721688146965</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Desafio Agenda de Eventos">
+      <created>1721688156558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721688156558</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +188,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ListaTarefa" />
     <MESSAGE value="Desafio Ordenação de números" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio Ordenação de números" />
+    <MESSAGE value="Desafio Estoque de Produtos com Preço" />
+    <MESSAGE value="Desafio Contagem de Palavras" />
+    <MESSAGE value="Desafio Agenda de Eventos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio Agenda de Eventos" />
   </component>
 </project>
